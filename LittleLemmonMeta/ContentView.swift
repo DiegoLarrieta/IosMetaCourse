@@ -1,21 +1,10 @@
-//
-//  ContentView.swift
-//  LittleLemmonMeta
-//
-//  Created by Luis Diego Dominguez Larrieta on 17/01/25.
-//
-
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+struct ContentView:View{
+    @State var showLogo = true
+    var body: some View{
+        LittleLemmonRestaurant(showLogo: $showLogo)
+
     }
 }
 

@@ -30,6 +30,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		F12839962D3F34AA0075F181 /* PlayGrounds */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlayGrounds;
+			sourceTree = "<group>";
+		};
 		F1BE50A12D3B3F560080E568 /* LittleLemmonMeta */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LittleLemmonMeta;
@@ -75,6 +80,7 @@
 		F1BE50962D3B3F560080E568 = {
 			isa = PBXGroup;
 			children = (
+				F12839962D3F34AA0075F181 /* PlayGrounds */,
 				F1BE50A12D3B3F560080E568 /* LittleLemmonMeta */,
 				F1BE50B32D3B3F570080E568 /* LittleLemmonMetaTests */,
 				F1BE50BD2D3B3F570080E568 /* LittleLemmonMetaUITests */,
@@ -108,6 +114,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				F12839962D3F34AA0075F181 /* PlayGrounds */,
 				F1BE50A12D3B3F560080E568 /* LittleLemmonMeta */,
 			);
 			name = LittleLemmonMeta;
